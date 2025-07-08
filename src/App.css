@@ -1,0 +1,44 @@
+/* Botones flotantes con iconos */
+.floating-btn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  border: none;
+  color: #333;
+}
+
+.floating-btn:hover {
+  transform: scale(1.1);
+  background: #f0f0f0;
+}
+
+.floating-btn svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Posiciones específicas */
+.floating-btn.back {
+  left: 20px;
+  top: 20px;
+}
+
+.floating-btn.logout {
+  right: 20px;
+  top: 20px;
+  background: #ff4444;
+  color: white;
+}
+
+.floating-btn.logout:hover {
+  background: #cc0000;
+}

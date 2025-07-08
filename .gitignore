@@ -1,0 +1,37 @@
+# Elimina cualquier configuración de Git previa (si existe)
+rm -Force -Recurse .git
+
+# Inicializa nuevo repositorio Git
+git init
+
+# Crea archivo .gitignore
+@"
+# Dependencias
+node_modules/
+
+# Variables de entorno
+.env
+.env.local
+
+# Firebase
+.firebase/
+firebase/config.js
+
+# Build
+build/
+dist/
+
+# Logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
+
+# Verifica que se creó correctamente
+Get-Content .gitignore
