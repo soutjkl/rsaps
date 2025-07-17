@@ -32,7 +32,7 @@ function AdminPanel() {
       </button>
 
       <div className="powerbi-embed-container">
-        TRABAJAMOS FUERTE EN ELLOssssssssssssssssssssssssssssss
+        <iframe title="APS_2225" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiY2VlZjAyNGYtYzcwMi00Y2MyLWIxOGYtNTY3NDlhNWJhNzYyIiwidCI6ImE2NjdiNTIwLTBjZmMtNDViOC1hNTkwLWFiZjNmMjJkNWI3YSJ9&pageName=c9f99492a68167551b30" frameborder="0" allowFullScreen="true"></iframe>
       </div>
     </div>
   );
