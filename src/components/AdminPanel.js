@@ -32,7 +32,7 @@ function AdminPanel() {
       </button>
 
       <div className="powerbi-embed-container">
-        TRABAJAMOS FUERTE EN ELLO
+        TRABAJAMOS FUERTE EN ELLOssssssssssssssssssssssssssssss
       </div>
     </div>
   );
