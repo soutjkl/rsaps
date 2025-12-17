@@ -36,10 +36,9 @@ return (
       <div className="powerbi-embed-container">
         <iframe 
           ref={iframeRef}
-          title="APS NACIONAL RED SALUD 1499" 
-          src="https://app.powerbi.com/view?r=eyJrIjoiZTVlOTI3ZTQtMmZmNy00MThkLTljZjItYzZmNTBkNDc5ZjdjIiwidCI6ImE2NjdiNTIwLTBjZmMtNDViOC1hNTkwLWFiZjNmMjJkNWI3YSJ9&pageName=90e5b7e0ed800c4dd396"
-          allowFullScreen="true"
-        ></iframe>
+          title="APS 2290" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNDk0NGU5MjgtYmE2OS00YzViLThmMTAtMDRlYzZmNWM5YjdiIiwidCI6ImE2NjdiNTIwLTBjZmMtNDViOC1hNTkwLWFiZjNmMjJkNWI3YSJ9" 
+           allowFullScreen="true">
+        </iframe>
       </div>
     </div>
   );
