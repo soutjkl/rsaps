@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard';
 import AdminPanel from './components/AdminPanel';
 import DashboardSelector from './components/DashboardSelector'; // Nuevo componente
 import UserList from './components/UserList';
+import UserList from './components/1893';
 import PrivateRoute from './components/PrivateRoute';
 import './App.css';
 
@@ -42,6 +43,14 @@ function App() {
           />
           <Route 
             path="/dashboard/user" 
+            element={
+              <PrivateRoute>
+                <UserList />
+              </PrivateRoute>
+            } 
+          />
+            <Route 
+            path="/dashboard/1893" 
             element={
               <PrivateRoute>
                 <UserList />
