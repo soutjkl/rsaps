@@ -64,6 +64,22 @@ function DashboardSelector() {
             <h3>Resolución 2290</h3>
             <p>Avance de la estrategia APS</p>
           </button>
+
+                              <button 
+            className="dashboard-option"
+            onClick={() => handleDashboardSelect('1893')}
+          >
+            <div className="option-icon">
+                     <img 
+                            src={loginImage} 
+                            alt="Ilustración de inicio de sesión" 
+                            className="option-icon-image"
+                          />
+            </div>
+            <h3>Resolución 1893</h3>
+            <p>Avance de la estrategia APS</p>
+          </button>
+                              
         </div>
       </div>
       
